@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main index</title>
+</head>
+<body>
+<center>
+    <h1>AXIS BANK</h1>
+    <p1>Welcome To Bank Application</p1>
+
+        <h2>-------------------------------------------------------------------------------------------------------</h2>
+
+<form action="emp" method="post" class="form">
+    {% csrf_token %}
+    {{form.as_p}}
+    <br>
+        <button type="submit" class="btn btn-primary">Submit</button>
+
+
+</form>
+         <h2>------------------------------------------------------------------------------------------------------</h2>
+
+</center>
+
+
+</body>
+</html>

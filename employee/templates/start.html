@@ -1,0 +1,53 @@
+{% include 'navbar.html' %}
+
+<center>
+    <br>
+    <body style="background-color:#99ccff">
+    <br>
+<div class="container">
+  <div class="jumbotron">
+    <div class="alert alert-primary" role="alert">
+  <h1>Car Information Library</h1>
+</div>
+
+    <p1>In this Application you can store the information of Cars through the JSON File</p1>
+        <form action="emp" method="post" class="form">
+
+    {% csrf_token %}
+    {{form.as_p}}
+    <br>
+           <br>
+            <img src="static/images/car.png" alt="Girl in a jacket" style="width:450px;height:260px;">
+            <br>
+            <br>
+            <p1>Enter Data Manually</p1>
+     <br>
+    <br>
+        <button type="submit" class="btn btn-info">Enter Data</button>
+
+   {% load staticfiles %}
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}"/>
+
+
+
+<center>
+<br>
+    <br>
+
+</form>
+  </div>
+            <!DOCTYPE html>
+<html>
+<body>
+
+</body>
+</html>
+</div>
+
+    <br>
+    <br>
+
+
+
+
+    </center>

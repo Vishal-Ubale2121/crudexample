@@ -1,0 +1,26 @@
+{% include 'navbar.html' %}
+<center>
+
+   {% load staticfiles %}
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}"/>
+
+<body style="background-color:#99ccff">
+<br>
+    <br>
+
+<div class="alert alert-success">
+
+  <strong>Done!</strong> Your file successfully uploaded.
+
+
+
+    </div>
+
+<h3>Your file is stored in location of : media\documents\{{employee.car}}</h3>
+<div class="container">
+  <div class="jumbotron">
+    <h1>JSON Data file</h1>
+    <p>To show data press [Show Data] button</p>
+  </div>
+</div>
+<center><a href="/json" class="btn btn-primary">Show Data</a></center>

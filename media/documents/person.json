@@ -1,0 +1,22 @@
+{
+   "Car Information Library": [
+       {
+           "Car": "Bugati",
+           "Colour": "Black",
+           "Prise": 450000,
+           "Model": "A1"
+       },
+       {
+           "Car": "Suzuki",
+           "Colour": "White",
+           "Prise": 250000,
+           "Model": "LXI"
+       },
+       {
+           "Car": "Maruti",
+           "Colour": "Silver",
+           "Prise": 350000,
+           "Model": "VXI"
+       }
+   ]
+}
