@@ -1,0 +1,2 @@
+# crudexample
+Simple Django project
